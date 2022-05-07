@@ -1,64 +1,69 @@
 import React, { useState } from "react";
-import { Carousel } from "react-bootstrap";
+import { Carousel, Container } from "react-bootstrap";
 
 
 
 
-const Banner =()=>{
+const Banner = () => {
+
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
+
+
+
+  return (
     
-        const [index, setIndex] = useState(0);
-      
-        const handleSelect = (selectedIndex, e) => {
-          setIndex(selectedIndex);
-        };
+      <Carousel className="mt-2" activeIndex={index} onSelect={handleSelect}>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://i.ibb.co/YbBPhc9/istockphoto-1222563369-612x612.jpg" height='800px' 
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3 className="fs-3 fw-bolder">The Bookstore</h3>
+          <p>828 Broadway at 12th Street.<br></br>
+            New York City, NY # 10030</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://i.ibb.co/ggrhFLg/bookstore-1.jpg" height='800px' 
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3 className="fs-3 fw-bolder">The Bookstore</h3>
+          <p>60th Street and 5th Avenue<br></br>
+            New York, NY 10065</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://i.ibb.co/mJsRLHH/2bf7a5921f2793fee851eb2efe6b097b.jpg" height='800px' 
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3 className="fs-3 fw-bolder">The Bookstore</h3>
+          <p>450 Columbus Avenue
+            <br></br>
+            New York, NY 10024
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
     
-        
-          
-            return (
-              <Carousel activeIndex={index} onSelect={handleSelect}>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src="https://i.ibb.co/YbBPhc9/istockphoto-1222563369-612x612.jpg"
-                    alt="First slide"
-                  />
-                  <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src="https://i.ibb.co/YbBPhc9/istockphoto-1222563369-612x612.jpg"
-                    alt="Second slide"
-                  />
-          
-                  <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src="https://i.ibb.co/YbBPhc9/istockphoto-1222563369-612x612.jpg"
-                    alt="Third slide"
-                  />
-          
-                  <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>
-                      Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-              </Carousel>
-            );
-          }
-          
-        
-    
+  );
+}
+
+
+
 
 
 export default Banner;

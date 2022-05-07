@@ -5,7 +5,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { Link } from "react-router-dom";
 import auth from "../../../firebase.init";
 
-import logo from '../../../images/logo.jpg';
+// import logo from '../../../images/logo.jpg';
 
 const Header = () => {
   const [user] = useAuthState(auth);
@@ -19,7 +19,7 @@ const Header = () => {
 
       <Navbar collapseOnSelect expand="lg" bg="primary" sticky='top' variant="dark">
         <Container>
-          <Navbar.Brand as={Link} to="/"><img src={logo} height="30px" alt="" />Bookstore</Navbar.Brand>
+          <Navbar.Brand as={Link} to="/"><img src="https://i.ibb.co/vQxMd27/bookstore-flat-bookshop-vector-28078400.jpg" height="30px" alt="" />Bookstore</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
