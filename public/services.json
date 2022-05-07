@@ -1,0 +1,70 @@
+[
+    
+    {
+        "id": 1,
+        "name": "The Count of Monte Cristo.",
+        "type": "Action and Adventure.",
+        "price": "USD-100/-",
+        "description": "The Count of Monte Cristo is an adventure novel written by French author Alexandre Dumas completed in 1844. It is one of the author's more popular works, along with The Three Musketeers..",
+        "quantity":"500",
+        "author":" Alexandre Dumas",
+        "img": "https://i.ibb.co/Nn2d1VL/1.webp"
+        
+    },
+    {
+        "id": 2,
+        "name": "The Pride of Jane Austen.",
+        "type": "Classic.",
+        "price": "USD-100/-",
+        "description": "The Pride of Jane Austen! The story is set in England in the late 18th century. Charles Bingley, a wealthy and charismatic single man, moves to the Netherfield estate, and when he does... ",
+        "quantity":"560",
+        "author":" Jane Austen",
+        "img": "https://i.ibb.co/qgh3D75/pride-and-prejudice-barnes-nobel-2015.jpg"
+        
+    },
+    {
+        "id": 3,
+        "name": "Maus ",
+        "type": "Comic Book or Graphic Novel.",
+        "price": "USD-120/-",
+        "description": "Maus is a nonfiction book presented in the graphic novel style, written by American cartoonist Art Spiegelman. Serialized from 1980 to 1991, it depicts Spiegelman interviewing his father...",
+        "quantity":"250",
+        "author":" Art Spiegelman",
+        "img": "https://i.ibb.co/MGtH9Zg/Maus-volume-1-cover.jpg"
+        
+    },
+    {
+        "id": 4,
+        "name": "The Sweetness  of the Pie.",
+        "type": "Detective and Mystery.",
+        "price": "USD-100/-",
+        "description": "The Sweetness at the Bottom of the Pie is a mystery by Alan Bradley published in 2009. Set in the English countryside in 1950, it features Flavia de Luce, an 11-year-old amateur sleuth who...",
+        "quantity":"150",
+        "author":" Alan Bradley",
+        "img": "https://i.ibb.co/jW0t8t0/81lsy-Id-NDg-L.jpg"
+        
+    },
+    {
+        "id": 5,
+        "name": "A Game of Thrones.",
+        "type": "Fantasy.",
+        "price": "USD-170/-",
+        "description": "A Game of Thrones is the first novel in A Song of Ice and Fire, a series of fantasy novels by the American author George R. R. Martin. It was first published on August 1, 1996. The novel won man booker..",
+        "quantity":"500",
+        "author":" George R. R. Martin",
+        "img": "https://i.ibb.co/NSLxdgJ/a-game-of-thrones-the-illustrated-edition.jpg"
+        
+    },
+    {
+        "id": 6,
+        "name": "Outlander.",
+        "type": "Historical Fiction.",
+        "price": "USD-100/-",
+        "description": "Outlander is a series of historical fantasy novels by American author Diana Gabaldon. Gabaldon began the first volume of the series, Outlander, in the late 1980s, and it was published in 1991..",
+        "quantity":"500",
+        "author":" Diana Gabaldon",
+        "img": "https://i.ibb.co/3SWLNRg/10964-SY475.jpg"
+        
+    }
+    
+]
