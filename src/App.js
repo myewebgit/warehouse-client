@@ -12,6 +12,7 @@ import Register from './Pages/Home/Login/Register/Register';
 import RequireAuth from './Pages/Home/Login/RequireAuth/RequireAuth';
 import Services from './Pages/Home/Services/Services';
 import ManageServices from './Pages/ManageService/ManageService';
+import MyItems from './Pages/MyItems/MyItems';
 import ServiceDetail from './Pages/ServiceDetail/ServiceDetail';
 import Footer from './Pages/Shared/Header/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
@@ -37,6 +38,7 @@ function App() {
         <Route path="/checkout"element={<RequireAuth><Checkout></Checkout></RequireAuth>}></Route>
         <Route path="/manageservice"element={<RequireAuth><ManageServices></ManageServices></RequireAuth>}></Route>
         <Route path="/addservice"element={<RequireAuth><AddService></AddService></RequireAuth>}></Route>
+        <Route path="/myitems"element={<RequireAuth><MyItems></MyItems></RequireAuth>}></Route>
 
         <Route path="*"element={<NotFound></NotFound>}></Route>
       </Routes>
