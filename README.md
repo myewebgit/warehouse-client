@@ -14,11 +14,12 @@ About this projects:
 ### `Description:` This website is about a wearhouse or an inventory management system. The title of this website is "Bookstore", lots of books of different categories is available is this store..........
 ### `Tools:` This website is created by the help of various modern and updated front-end and back-end useful and interactive languages and framework and libraries. These are:
 ### JavaScript
-### `Bookstore`
-### `Bookstore`
-### `Bookstore`
-### `Bookstore`
-### `Bookstore`
+### React JS
+### Bootstrap 5
+### node js
+### Express js
+### Firebase
+### MongoDb
 
 
 
