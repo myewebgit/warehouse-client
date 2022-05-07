@@ -22,16 +22,16 @@ const AddService =()=>{
         <div className="w-50 mx-auto">
 		<h4> Add a service…</h4>
         <form className="d-flex flex-column" onSubmit={handleSubmit(onSubmit)}>
-      <input className="mb-2" placeholder="Name"{...register("name")} />
+      <input className="mb-2" placeholder="Book Title"{...register("name")} />
+      <input className="mb-2" placeholder="Origin"{...register("type")} />
+      <input className="mb-2" placeholder="Author"{...register("author")} />
       <input className="mb-2" placeholder="Price"{...register("price")} />
+      <input className="mb-2" placeholder="Quantity"{...register("quantity")} />
+      
       <textarea className="mb-2" placeholder="Description"{...register("description")} />
       
       <input className="mb-2" placeholder="Photo URL" type="text"{...register("img")} />
-      {/* <select {...register("Description")}>
-        <option value="female">female</option>
-        <option value="male">male</option>
-        <option value="other">other</option>
-      </select> */}
+      
       <input type="submit" value="Add Service" />
     </form>
         </div>
