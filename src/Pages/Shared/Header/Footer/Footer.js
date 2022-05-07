@@ -14,7 +14,12 @@ const Footer = () => {
                             <h6 class="card-title  text-dark">STAY CONNECTED</h6>
                             <p class="card-text text-dark">
                                 Books lists, events info, special offers, and more — right in your inbox!
-                                View our privacy policy.
+                                View our privacy policy.<br></br>
+                                <img className="ms-2" src="https://i.ibb.co/5Gg1bdq/facebook-logos-PNG19757.png" height='30px' width='30px' alt=""/>
+                                <img className="ms-2" src="https://i.ibb.co/QF1zv3z/9-2-twitter-high-quality-png.png" height='30px' width='30px' alt=""/>
+                                <img className="ms-2" src="https://i.ibb.co/58QRshb/pintrest.webp" height='30px' width='30px' alt=""/>
+                                <img className="ms-2" src="https://i.ibb.co/X3ZJxh2/49803d8eb5ea235a5860ac942caece70-download-png-download-eps-instagram-logo-clipart-png-1024-1024.jpg" height='30px' width='30px' alt=""/>
+                                <img className="ms-2" src="https://i.ibb.co/KsM7bT5/youtube-1837872-340.webp" height='30px' width='30px' alt=""/>
                             </p>
 
                         </div>
@@ -72,7 +77,7 @@ const Footer = () => {
                 </div>
 
             </div>
-            <p><small>copyright &copy; {year}; The Bookstore.com</small></p>
+            <p className="text-white"><small>copyright &copy; {year}; The Bookstore.com</small></p>
         </footer>
     );
 };
