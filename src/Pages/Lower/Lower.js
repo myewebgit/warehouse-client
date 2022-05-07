@@ -1,13 +1,18 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 
+
 const Lower =()=>{
     return (
-        <Container className="p-2 mt-5">
+        
+        
+        <Container className="p-2 mt-5">  
+
+
             <div class="card mb-3">
   <img src="https://i.ibb.co/tKHvsyv/footer-orange-900-2019.jpg" class="card-img-top" alt="..."/>
   <div class="card-body">
-    <h5 class="card-title ">WHY INDEPENDENCE MATTERS</h5>
+    <h5 class="card-title text-center ">WHY INDEPENDENCE MATTERS</h5>
     <p class="card-text  ">
 Think about the last good book you read. Did it make you feel more connected to others? Maybe it served as a welcome escape. Maybe it helped you rediscover the beauty in life. Did it surprise you?<br></br>
 
@@ -17,7 +22,10 @@ Thank you for supporting these lofty goals. Your choice sustains a family busine
     
   </div>
 </div>
+
         </Container>
+        
+        
     );
 };
 

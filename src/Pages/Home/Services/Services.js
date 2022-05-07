@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Container } from "react-bootstrap";
 import Service from "../Home/Service/Service";
 import './Services.css';
 
@@ -19,8 +20,8 @@ const Services =()=>{
     
     
     return (
-        <div>
-		<h1 className="text-primary">Books available</h1>
+        <Container>
+            <h1 className="text-primary">Books available</h1>
         
         <div className="services-container">
         {
@@ -30,7 +31,7 @@ const Services =()=>{
                  ></Service>)
         }
         </div>
-        </div>
+        </Container>
     );
 };
 
