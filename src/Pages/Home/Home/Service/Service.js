@@ -14,39 +14,9 @@ const Service =({service, })=>{
       
     
     return (
-        // <div>
-		
-        // <img  src={img} alt=""/>
-        // <h4>Title:{name}</h4>
-        // <h4>Origin:{type}</h4>
-        // <p>Author:{author}</p>
-        // <p><small>Description:{description}</small></p>
-        // <p>Price:{price}</p>
-        // <p>Quantity:{quantity}</p>
-           
-        // <Button>Detail:{name}</Button>
-
-        // </div>
-        <div>
-{/* <CardGroup>
-  <Card>
-    <Card.Img variant="top" src={img} height="250px" width="100px" alt=""/>
-    <Card.Body>
-      <Card.Title>{name}</Card.Title>
-      <h4>Origin:{type}</h4>
-        <p>Author:{author}</p>
-      <p>Price:{price}</p>
-      <p>Quantity:{quantity}</p>
-      <p><small>Description:{description}</small></p>
-      <Card.Text>
        
-        <button  onClick={()=>navigateToServiceDetail(id)} className="bg-info mt-2 mb-0">Book:{name}</button>
-      </Card.Text>
-    </Card.Body>
-    
-  </Card>
-  
-</CardGroup> */}
+        <div>
+
 
 <div className="card-group">
   <div className="card">
@@ -60,7 +30,7 @@ const Service =({service, })=>{
       <p className="card-text"><small>Description:{description}</small></p>
     </div>
     <div className="card-footer">
-      <small className="text-muted"><button  onClick={()=>navigateToServiceDetail(_id)} className="bg-info mt-2 mb-0">See More </button></small>
+      <small className="text-muted"><button  onClick={()=>navigateToServiceDetail(_id)} className="bg-info mt-2 mb-0">Update </button></small>
     </div>
   </div>
   
