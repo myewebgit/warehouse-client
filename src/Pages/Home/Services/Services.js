@@ -9,14 +9,27 @@ import './Services.css';
 
 const Services =()=>{
     const [Services, setServices] = useState([]);
+    const [bookCount, setBookCount] = useState(0);
     
+
+    useEffect( ()=> {
+        fetch('http://localhost:5000/bookCount')
+        .then(res => res.json())
+        .then(data =>{
+            const count = data.count;
+            const books = Math.ceil(count/1);
+            setBookCount(books);
+        })
+    },[]);
 
     useEffect( ()=>{
         fetch('http://localhost:5000/book')
         .then(res => res.json())
         .then(data => setServices(data));
         
-    },[])
+    },[]);
+
+    
 
     
     
@@ -31,7 +44,17 @@ const Services =()=>{
                  service={service}
                  ></Service>)
         }
+<div>
+            {
+                [...Array(bookCount).keys()]
+                .map(number => <button>{number + 1}</button>)
+            }
         </div>
+
+        </div>
+        
+
+        
         </Container>
     );
 };
