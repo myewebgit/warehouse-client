@@ -16,7 +16,7 @@ const Services =()=>{
     
 
     useEffect( ()=> {
-        fetch('http://localhost:5000/bookCount')
+        fetch('https://limitless-lake-40817.herokuapp.com/bookCount')
         .then(res => res.json())
         .then(data =>{
             const count = data.count;
@@ -26,7 +26,7 @@ const Services =()=>{
     },[]);
 
     useEffect( ()=>{
-        fetch('http://localhost:5000/book')
+        fetch('https://limitless-lake-40817.herokuapp.com/book')
         .then(res => res.json())
         .then(data => setServices(data));
         

@@ -6,7 +6,7 @@ const ServiceDetail = () => {
     const [service, setservice] = useState({});
 
     useEffect( () =>{
-        const url = `http://localhost:5000/book/${serviceId}`;
+        const url = `https://limitless-lake-40817.herokuapp.com/book/${serviceId}`;
         console.log(url);
         fetch(url)
         .then(res=> res.json())

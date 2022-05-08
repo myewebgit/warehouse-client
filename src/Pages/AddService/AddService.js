@@ -5,7 +5,7 @@ const AddService =()=>{
     const { register, handleSubmit } = useForm();
   const onSubmit = data => {
       console.log(data);
-      const url = `http://localhost:5000/book`;
+      const url = `https://limitless-lake-40817.herokuapp.com/book`;
       fetch(url,{
           method:'POST',
           headers:{
