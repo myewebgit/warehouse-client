@@ -1,5 +1,7 @@
+import { Button } from "bootstrap";
 import React, { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 import Service from "../Home/Service/Service";
 import './Services.css';
@@ -10,6 +12,7 @@ import './Services.css';
 const Services =()=>{
     const [Services, setServices] = useState([]);
     const [bookCount, setBookCount] = useState(0);
+    const navigate = useNavigate();
     
 
     useEffect( ()=> {
@@ -17,7 +20,7 @@ const Services =()=>{
         .then(res => res.json())
         .then(data =>{
             const count = data.count;
-            const books = Math.ceil(count/1);
+            const books = Math.ceil(count/3);
             setBookCount(books);
         })
     },[]);
@@ -34,9 +37,11 @@ const Services =()=>{
     
     
     return (
+
         <Container>
-            <h1 className="text-primary">Books available</h1>
-        
+            
+            <h1 className="text-primary">Books available </h1>
+            <h4 > Add your items here <button onClick={()=>navigate('/addservice')} className="bg-warning">click</button></h4>
         <div className="services-container">
         {
             Services.map(service => <Service
@@ -44,16 +49,16 @@ const Services =()=>{
                  service={service}
                  ></Service>)
         }
-<div>
+
+
+        </div>
+        
+        <div>
             {
                 [...Array(bookCount).keys()]
                 .map(number => <button>{number + 1}</button>)
             }
         </div>
-
-        </div>
-        
-
         
         </Container>
     );

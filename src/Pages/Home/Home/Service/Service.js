@@ -7,8 +7,9 @@ const Service =({service, })=>{
     const {_id, name, img, type, description, price, quantity, author} = service;
     
     const navigate = useNavigate();
-    const navigateToServiceDetail=id => {
-        navigate(`/service/${id}`);}
+    // const navigateToServiceDetail=id => {
+        // navigate(`/service/${id}`);}
+        // navigate(`/manageservices}`);}
 
 
       
@@ -30,7 +31,7 @@ const Service =({service, })=>{
       <p className="card-text"><small>Description:{description}</small></p>
     </div>
     <div className="card-footer">
-      <small className="text-muted"><button  onClick={()=>navigateToServiceDetail(_id)} className="bg-info mt-2 mb-0">Update </button></small>
+      <small className="text-muted"><button  onClick={()=>navigate('/manageservice')} className="bg-info mt-2 mb-0">Update </button></small>
     </div>
   </div>
   

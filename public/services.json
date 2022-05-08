@@ -57,6 +57,72 @@
     },
     {
         "id": 6,
+        "name": "Nineteen Eighty-Four.",
+        "type": "Fantasy.",
+        "price": "USD-170/-",
+        "description": "Nineteen Eighty-Four is a dystopian social science fiction novel and cautionary tale written by English writer George Orwell. It was published on 8 June 1949 by Secker & Warburg as Orwell's ninth and final book completed in his lifetime",
+        "quantity":"500",
+        "author":" George Orwell",
+        "img": "https://i.ibb.co/jMCb8Ph/MV5-BYzc2-MWU1-Nm-Mt-NTRl-OC00-ZWVk-LWE0-MDgt-Njc5-Mz-Ax-OGM4-ZWU1-Xk-Ey-Xk-Fqc-Gde-QXVy-NTE4-Mz-Ey.jpg"
+        
+    },
+    {
+        "id": 7,
+        "name": "Nimona.",
+        "type": "Fantasy.",
+        "price": "USD-170/-",
+        "description": "Nimona is a fantasy graphic novel by ND Stevenson, an American cartoonist. The story follows Nimona, a shapeshifter who joins the villain Ballister Blackheart in his plans to destroy the over-controlling Institute. Blackheart tries to operate under his code of ethics, while Nimona has no problem with killing.",
+        "quantity":"500",
+        "author":" ND Stevenson",
+        "img": "https://i.ibb.co/M60P69W/19351043-SX0-SY0.jpg"
+        
+    },
+    {
+        "id": 8,
+        "name": "Sherlock Holmes .",
+        "type": "Fantasy.",
+        "price": "USD-170/-",
+        "description": "Sherlock Holmes  is a fictional detective created by British author Sir Arthur Conan Doyle. Referring to himself as a consulting detective in the stories, Holmes is known for his proficiency with observation, deduction, forensic science and logical reasoning that borders on the fantastic, which he employs when investigating cases for a wide variety of clients, including Scotland Yard.",
+        "quantity":"500",
+        "author":" Sir Arthur Conan Doyle",
+        "img": "https://i.ibb.co/0mb1D3C/16160621.jpg"
+        
+    },
+    {
+        "id": 9,
+        "name": "The Name of the Wind.",
+        "type": "Fantasy.",
+        "price": "USD-170/-",
+        "description": "The Name of the Wind, also referred to as The Kingkiller Chronicle: Day One, is a heroic fantasy novel written by American author Patrick Rothfuss. It is the first book in the ongoing fantasy trilogy The Kingkiller Chronicle, followed by The Wise Man's Fear. It was published on March 27, 2007, by DAW Books.",
+        "quantity":"500",
+        "author":" Patrick Rothfuss",
+        "img": "https://i.ibb.co/D5g9WtS/71j-Jc-PTGd3-L.jpg"
+        
+    },
+    {
+        "id": 10,
+        "name": "The Accursed Kings.",
+        "type": "Fantasy.",
+        "price": "USD-170/-",
+        "description": "The Accursed Kings is a series of historical novels by French author Maurice Druon about the French monarchy in the 14th century. Published between 1955 and 1977, the series has been adapted as a miniseries twice for television in France.",
+        "quantity":"500",
+        "author":"Maurice Druon",
+        "img": "https://i.ibb.co/VCzcqs5/24359968-SY475.jpg"
+        
+    },
+    {
+        "id": 11,
+        "name": "Around the World in Eighty Days.",
+        "type": "Historical Fiction.",
+        "price": "USD-170/-",
+        "description": "Around the World in Eighty Days is an adventure novel by the French writer Jules Verne, first published in French in 1872. In the story, Phileas Fogg of London and his newly employed French valet Passepartout attempt to circumnavigate the world in 80 days on a wager of £20,000 set by his friends at the Reform Club.",
+        "quantity":"500",
+        "author":" Jules Verne and Peter Holeinone",
+        "img": "https://i.ibb.co/wrWq9qH/download.jpg"
+        
+    },
+    {
+        "id": 12,
         "name": "Outlander.",
         "type": "Historical Fiction.",
         "price": "USD-100/-",
