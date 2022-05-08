@@ -3,6 +3,7 @@ import Footerorgan from "../../Footerorgan/Footerorgan";
 
 
 import Lower from "../../Lower/Lower";
+import TopSection from "../../TopSection/TopSection";
 
 import Banner from "../Banner/Banner";
 import Services from "../Services/Services";
@@ -12,7 +13,8 @@ const Home =()=>{
         <div>
 		
         <Banner></Banner>
-        <Services></Services>
+        <TopSection></TopSection>
+        {/* <Services></Services> */}
        <Footerorgan></Footerorgan>
         <Lower></Lower>
         

@@ -8,7 +8,7 @@ const Footerorgan = () => {
             </h4>
             <div className="row row-cols-1 row-cols-md-4 g-4">
                 <div className="col">
-                    <div className="card">
+                    <div className="card col-sm-12">
                         <img src="https://i.ibb.co/YbBPhc9/istockphoto-1222563369-612x612.jpg" height='200px' className="card-img-top rounded-circle " alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">Main Location</h5>
@@ -23,7 +23,7 @@ const Footerorgan = () => {
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card">
+                    <div className="card col-sm-12">
                         <img src="https://i.ibb.co/cwsMJds/bookstore.jpg" height='200px' className="card-img-top rounded-circle " alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">Bookstore at Central Park Kiosk</h5>
@@ -37,7 +37,7 @@ const Footerorgan = () => {
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card">
+                    <div className="card col-sm-12">
                         <img src="https://i.ibb.co/mJsRLHH/2bf7a5921f2793fee851eb2efe6b097b.jpg" height='200px' className="card-img-top rounded-circle " alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">The Strand at Columbus Avenue</h5>
@@ -53,7 +53,7 @@ const Footerorgan = () => {
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card">
+                    <div className="card col-sm-12">
                         <img src="https://i.ibb.co/hfk5tgG/146049589-bookstore-shop-exterior-with-books-and-textbooks-in-showcase-3d-illustration.webp" height='200px' className="card-img-top rounded-circle " alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">The Strand at The Bowery Bay Shops</h5>

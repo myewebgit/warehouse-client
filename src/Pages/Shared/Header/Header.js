@@ -26,7 +26,7 @@ const Header = () => {
               <Nav.Link href="/services">Services</Nav.Link>
               <Nav.Link href="/blog">Blogs</Nav.Link>
               <NavDropdown title="Services" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="/services">Service</NavDropdown.Item>
+                <NavDropdown.Item href="/services">Services</NavDropdown.Item>
                 <NavDropdown.Item href="/addservice">Add Service</NavDropdown.Item>
                 <NavDropdown.Item href="/manageservice">ManageService</NavDropdown.Item>
                 <NavDropdown.Divider />
